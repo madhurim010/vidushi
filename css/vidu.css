@@ -1,0 +1,236 @@
+@media (max-width:576px){
+	#gallery img{
+		max-width: 300px;
+	}
+}
+
+body{
+	background: #31231e;
+}
+.container{
+	margin: 0px;
+	padding: 0px;
+	max-width: 576px;
+}
+h2{
+	color: #e2f1af;
+	text-align: center;
+	margin: 2.5em 0em 1em 0em;
+	border: 1px solid #e2f1af;
+	border-radius: 10px;
+	height: 2em;
+	line-height: 2em;
+
+}
+#vidushi{
+	/*border-bottom: 1px solid #e2f1af;*/
+	margin-top: 3em;
+}
+header{
+	background: #31231e;
+}
+header li a{
+	font-weight: 500;
+	color: #e2f1af;
+	border: #e2f1af 1px solid;
+	border-radius: 10px;
+	margin-right: 2px;
+	/*padding-right: 0px;*/
+}
+header a:hover, header a:active{
+	color: #d8c95a;
+}
+.navbar-toggler-icon{
+	/*background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");*/
+}
+.fa-bars{
+	color: #e2f1af;
+}
+.fa-chevron-circle-down, .fa-chevron-circle-up{
+	color: #e2f1af;
+	margin-top: 0.5em;
+	cursor: pointer;
+}
+
+.hide{
+	display: none;
+}
+#icon{
+	text-align: center;
+}
+.logo{
+	font-weight: 500;
+	color: #e2f1af;
+	font-size: 1.6em;
+	margin-left: 0.5em;
+}
+.logo:hover, .logo:active{
+	text-decoration:none;
+}
+.top-img{
+	width: 100%;
+	max-width: 1800px;
+}
+.navbar-nav{
+	/*min-width: 600px; */
+}
+.center{
+	/*position: absolute;
+	top: 50%;
+  	left: 50%;*/
+  	display: block;
+  	width: 100%;
+  	background-color: rgba(226, 241, 175,0.5);
+  	/*transform: translate(0,-50%);*/
+  	    text-align: center;
+    margin-top: 35vh;
+    border-radius: 10px;
+  }
+
+ #top-section{
+ 	background: url("../img/vidu1.jpg") no-repeat;
+ 	height: 70vh;
+ 	/*background-size: cover;
+*/
+	background-size: 100% 100%; 
+}
+ #top-section div{
+ 	/*background-color: rgba(226, 241, 175,0.5);*/
+ 	font-weight: bold;
+ 	height: 10vh;
+ 	line-height: 10vh;
+ 	width: 80vw;
+    margin-left: 10vw;
+    border-radius: 10px;
+    font-size: 2em;
+ }
+
+.about{
+	color: #e2f1af;
+	padding-right: 3em;
+	/*float: left;
+	display: inline;*/
+}
+.section2{
+	margin-top: 10vh;
+	margin-left: 1em;
+	border-bottom: 1px solid #e2f1af;
+	padding-bottom: 1em;
+}
+
+#gallery{
+	margin: 3em;
+}
+#blur{
+	-webkit-filter: blur(6px); /* Safari 6.0 - 9.0 */
+ 	 filter: blur(6px);
+}
+h4{
+	color: #e2f1af;
+	text-decoration: underline;
+	margin-bottom: 1em;
+	text-align: center;
+}
+form{
+	text-align: center;
+}
+label{
+	color: #e2f1af;
+}
+#gallery img{
+	box-sizing: border-box;
+	max-height: 30em;
+	padding: 2em;
+	/*max-width: 350px;*/
+	/*-webkit-filter: blur(5px);*/ /* Safari 6.0 - 9.0 */
+ 	 /*filter: blur(5px);*/
+ 	 -webkit-transition: 1s ease-out;
+	-moz-transition: 1s ease-out;
+	-o-transition: 1s ease-out;
+}
+#gallery img:hover{
+	-webkit-transform: scale(1.25,1.25);
+	-moz-transform: scale(2,2);
+	-o-transform: scale(2,2);
+	-ms-transform: scale(2,2);
+}
+video{
+	padding-top: : 3%;
+	margin-top: 80px;
+}
+
+.card{
+	padding-right: 1%;
+	max-width: 48%;
+	margin-right: 1%;
+	margin-left: 1%;
+	margin-bottom: 3%;
+	background-color: transparent;
+	border: none;
+}
+.card-text{
+	color: white;
+}
+.card-body{
+	background-color: rgba(230,255,143,0.4);
+}
+
+.fa-star{
+	animation: animate1 5s infinite ;
+}
+@keyframes animate1 {
+	0% {left: 0%; top: 0%}
+	25% {left: 25%; top: 25%;}
+	50% {left: 50%;top:50%;}
+	75% {left: 75%; top:75%;}
+	100% {ledt:100%; top:100%;}
+}
+  @media (min-width: 576px) {
+  .container {
+    max-width: 768px;
+  }
+  .card{
+
+  	  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 992px;
+  }
+  .navbar-nav{
+  	min-width: 600px;
+  }
+  #gallery img{
+  	/*max-width: unset;*/
+  }
+  .section2{
+	margin-top: 10vh;
+	margin-left: 1em;
+	border-bottom: 1px solid #e2f1af;
+	padding-bottom: 5em;
+	}
+	h2{
+		margin-top: 5em;
+	}
+	.card{
+		max-width: 33.3333%;
+	}
+	.video1{
+	margin-top: 8%;
+	height: 350;
+}
+}
+
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: none;
+  }
+}
